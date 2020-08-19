@@ -77,6 +77,29 @@ background: rgb(27, 194, 236);
     margin: 0rem 2rem;
 }
 
+.mute.active{
+    background: #a6a7a8;
+}
+.tempo {
+    margin: 3rem;
+    width: 30%;
+    p{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 2rem;
+    }
+}
+.tempo-slider{
+    padding: 0.2rem;
+    appearance: none;
+    margin: 1rem 0rem;
+    width: 100%;
+    position: relative;
+    background: #6c757d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .mute {
     
     padding: 0.5rem 1rem;
